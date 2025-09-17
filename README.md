@@ -1,13 +1,29 @@
-# AUCSeg
-This repository is the official code for the paper " [AUCSeg: AUC-oriented Pixel-level Long-tail Semantic Segmentation](https://arxiv.org/abs/2409.20398)" (NeurIPS 2024).
+<img src="resources/AUCSeg_logo.png" style="zoom: 25%;" />
 
-**Paper Title: AUCSeg: AUC-oriented Pixel-level Long-tail Semantic Segmentation.**
+# AUCSeg: AUC-oriented Pixel-level Long-tail Semantic Segmentation (NeurIPS 2024)
+
+<p align="center">
+<a href="https://arxiv.org/pdf/2409.20398"><img src="https://img.shields.io/badge/arXiv-Paper-<color>"></a>
+<a href="https://boyuh.github.io/project/AUCSeg/"><img src="https://img.shields.io/badge/Project-Website-red"></a>
+<a href="https://neurips.cc/media/PosterPDFs/NeurIPS%202024/94250.png?t=1733470344.9781482"><img src="https://img.shields.io/static/v1?label=NeurIPS&message=Poster&color=orange"></a>
+<a href="" target='_blank'>
+<a href="https://neurips.cc/virtual/2024/poster/94250"><img src="https://img.shields.io/static/v1?label=Talk&message=Video&color=6023C0"></a>
+<a href="" target='_blank'>
+<img src="https://visitor-badge.laobi.icu/badge?page_id=boyuh.AUCSeg" />
+</a>
+</p>
 
 **Author: [Boyu Han](https://boyuh.github.io/), [Qianqian Xu*](https://qianqianxu010.github.io/), [Zhiyong Yang](https://joshuaas.github.io/), [Shilong Bao](https://statusrank.github.io/), [Peisong Wen](https://scholar.google.com/citations?user=Zk2XLWYAAAAJ&hl=zh-CN&oi=ao), [Yangbangyan Jiang](https://jiangyangby.github.io/), [Qingming Huang*](https://qmhuang-ucas.github.io/)**
 
 ![](resources/AUCSeg.png)
 
-## Installation
+## ✨ Updates:
+
+[2024-10-3] 🔥 Released our `AUCSeg` code. We warmly welcome everyone to use it and give feedback or suggestions!
+
+[2024-9-26] Our paper has been accepted to `NeurIPS 2024`.
+
+## 🔧 Installation
 
 * Clone the repository
 
@@ -20,7 +36,7 @@ git clone https://github.com/boyuh/AUCSeg.git
 
 - (Optional) If you want to use SegNeXt as the backbone, download the mscan-l pretrained model from [Our - Google Drive](https://drive.google.com/drive/folders/1ox_cNkmFO4cRfBOg7aoo7udSxoJlR7UZ) or [SegNeXt - TsingHua Cloud](https://cloud.tsinghua.edu.cn/d/c15b25a6745946618462/).
 
-## Training
+## 🖥️ Training
 
 AUCSeg is a **plug-and-play component** that can be integrated into almost any existing backbone with just **two** simple modifications:
 
@@ -55,7 +71,7 @@ We provide the Config and Checkpoint for these three datasets.
 |   Cityscapes    | SegNeXt-large | [config](aucseg_configs/aucseg.segnext.large.1024x1024.city.160k.py) | [Google Drive](https://drive.google.com/file/d/17uta7j6h8B9uVr_Te1P6AACNXPbCuEQN/view?usp=drive_link) |
 | COCO-Stuff 164K | SegNeXt-large | [config](aucseg_configs/aucseg.segnext.large.512x512.coco_stuff164k.80k.py) | [Google Drive](https://drive.google.com/file/d/1W8fBSLdXaDbi8KnmQ-nZo_QBQ6v3mxRq/view?usp=drive_link) |
 
-## Evaluation
+## 🌌 Evaluation
 
 To evaluate the model, run this command:
 
@@ -63,7 +79,7 @@ To evaluate the model, run this command:
 ./tools/dist_test.sh /path/to/config /path/to/checkpoint_file 1 --eval mIoU
 ```
 
-## Citation
+## ✒️ Citation
 
 If you find our work inspiring or use our codebase in your research, please cite our work.
 
@@ -72,14 +88,15 @@ If you find our work inspiring or use our codebase in your research, please cite
     title={AUCSeg: AUC-oriented Pixel-level Long-tail Semantic Segmentation}, 
     author={Boyu Han and Qianqian Xu and Zhiyong Yang and Shilong Bao and Peisong Wen and Yangbangyan Jiang and Qingming Huang},
     booktitle={Advances in Neural Information Processing Systems},
+    pages={126863--126907},
     year={2024}
 }
 ```
 
-## Contact
+## 💬 Contact
 
 If you find any issues or plan to contribute back bug-fixes, please contact us by Boyu Han (Email: hanboyu23z@ict.ac.cn).
 
-## Acknowledgement
+## 📚 Acknowledgement
 
 Our codes are based on [MMSegmentaion v0.24.1](https://github.com/open-mmlab/mmsegmentation/tree/v0.24.1), [SegNeXt](https://github.com/Visual-Attention-Network/SegNeXt) and [XCurve v1.1.0](https://github.com/statusrank/XCurve).
