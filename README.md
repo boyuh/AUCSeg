@@ -1,4 +1,6 @@
-<img src="resources/AUCSeg_logo.png" style="zoom: 25%;" />
+<div align="center">
+  <img src="resources/AUCSeg_logo.png" alt="AUCSeg" width="250px">
+</div>
 
 # AUCSeg: AUC-oriented Pixel-level Long-tail Semantic Segmentation (NeurIPS 2024)
 
@@ -13,7 +15,7 @@
 </a>
 </p>
 
-**Author: [Boyu Han](https://boyuh.github.io/), [Qianqian Xu*](https://qianqianxu010.github.io/), [Zhiyong Yang](https://joshuaas.github.io/), [Shilong Bao](https://statusrank.github.io/), [Peisong Wen](https://scholar.google.com/citations?user=Zk2XLWYAAAAJ&hl=zh-CN&oi=ao), [Yangbangyan Jiang](https://jiangyangby.github.io/), [Qingming Huang*](https://qmhuang-ucas.github.io/)**
+**Author:** [Boyu Han](https://boyuh.github.io/), [Qianqian Xu*](https://qianqianxu010.github.io/), [Zhiyong Yang](https://joshuaas.github.io/), [Shilong Bao](https://statusrank.github.io/), [Peisong Wen](https://scholar.google.com/citations?user=Zk2XLWYAAAAJ&hl=zh-CN&oi=ao), [Yangbangyan Jiang](https://jiangyangby.github.io/), [Qingming Huang*](https://qmhuang-ucas.github.io/)
 
 ![](resources/AUCSeg.png)
 
