@@ -19,7 +19,7 @@
 
 ![](resources/AUCSeg.png)
 
-## ✨ Updates:
+## ✨ Updates
 
 [2024-10-3] 🔥 Released our `AUCSeg` code. We warmly welcome everyone to use it and give feedback or suggestions!
 
@@ -65,7 +65,9 @@ For the **COCO-Stuff 164K** dataset, run this command:
 python tools/train.py aucseg_configs/aucseg.segnext.large.512x512.coco_stuff164k.80k.py --work-dir results/aucseg.segnext.large.512x512.coco_stuff164k.80k --seed 0 --gpu-id 0
 ```
 
-We provide the Config and Checkpoint for these three datasets.
+## ⭐ Released Weights
+
+We provide the Config and Checkpoint for three datasets.
 
 |     Dataset     |   Backbone    |                            Config                            |                          Checkpoint                          |
 | :-------------: | :-----------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -73,7 +75,7 @@ We provide the Config and Checkpoint for these three datasets.
 |   Cityscapes    | SegNeXt-large | [config](aucseg_configs/aucseg.segnext.large.1024x1024.city.160k.py) | [Google Drive](https://drive.google.com/file/d/17uta7j6h8B9uVr_Te1P6AACNXPbCuEQN/view?usp=drive_link) |
 | COCO-Stuff 164K | SegNeXt-large | [config](aucseg_configs/aucseg.segnext.large.512x512.coco_stuff164k.80k.py) | [Google Drive](https://drive.google.com/file/d/1W8fBSLdXaDbi8KnmQ-nZo_QBQ6v3mxRq/view?usp=drive_link) |
 
-## 🌌 Evaluation
+## 📏 Evaluation
 
 To evaluate the model, run this command:
 
